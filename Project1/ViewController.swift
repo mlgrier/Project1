@@ -24,8 +24,9 @@ class ViewController: UIViewController {
             if item.hasPrefix("nssl") {
                 pictures.append(item)
             }
-            
+           
         }
+        print(pictures)
     }
 
     override func didReceiveMemoryWarning() {
